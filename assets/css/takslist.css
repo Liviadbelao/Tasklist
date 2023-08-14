@@ -46,10 +46,10 @@ input{
 #add:hover{
     cursor: pointer;
 }
-#list1{
+.list1{
     color: #f0f0f0;
 }
-#results{
+.results{
     background-color: #3e3e3e;
     width: 80%;
     margin-left: 10%;
@@ -64,17 +64,17 @@ input{
     color: red;
 margin-left: 35%;
 }
-#clean{
+.clean{
     background-color: #2a2a2a;
     padding: 1%;
     width: 4%;
     border-radius: 30px;
     border: none;
 }
-#clean:hover{
+.clean:hover{
     cursor: pointer;
 }
-#green{
+.green{
     background-color: #2a2a2a;
     padding: 1%;
     width: 4%;
