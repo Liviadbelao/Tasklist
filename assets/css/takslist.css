@@ -4,22 +4,25 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #181818;
+}
 
 main{
     background-color: #181818;
     width: 100%;
-    height: 100vh;
-    position: fixed;
+    
+    position: absolute;
 }
-#inputBox{
+#boxTaskList{
     background-color: #2a2a2a;
-    display: flex;
+   
     padding: 3rem;
     gap: 1rem;
     width: 90%;
     margin-left: 5%;
    align-items: center;
-    margin-top: 15%;
+    margin-top: 10%;
     border-radius: 10px;
 }
 input{
@@ -30,8 +33,9 @@ input{
     width: 70%;
     margin-left: 10%;
     font-size: 20px;
+    color: #f0f0f0;
 }
-button{
+#add{
     width: 5%;
     border-radius: 8px;
     background-color: #3e3e3e;
@@ -39,11 +43,11 @@ button{
    
    height: 8vh;
 }
-button:hover{
+#add:hover{
     cursor: pointer;
 }
 #list1{
-    color: azure;
+    color: #f0f0f0;
 }
 #results{
     background-color: #3e3e3e;
@@ -53,10 +57,28 @@ button:hover{
     border-radius: 8px;
     margin-top: 5%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+#p1{
+    color: red;
+margin-left: 35%;
+}
+#clean{
+    background-color: #2a2a2a;
+    padding: 1%;
+    width: 4%;
+    border-radius: 30px;
+    border: none;
+}
+#clean:hover{
+    cursor: pointer;
 }
 #green{
     background-color: #2a2a2a;
-    padding: 1.5%;
+    padding: 1%;
+    width: 4%;
     border-radius: 30px;
+    margin-left: 85%;
+    border: none;
 }
