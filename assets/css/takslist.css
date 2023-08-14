@@ -2,21 +2,25 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 main{
     background-color: #181818;
     width: 100%;
     height: 100vh;
+    position: fixed;
 }
 #inputBox{
     background-color: #2a2a2a;
     display: flex;
     padding: 3rem;
     gap: 1rem;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    margin-left: 5%;
    align-items: center;
+    margin-top: 15%;
+    border-radius: 10px;
 }
 input{
     padding: 1rem;
@@ -25,11 +29,34 @@ input{
     border: none;
     width: 70%;
     margin-left: 10%;
+    font-size: 20px;
 }
 button{
     width: 5%;
     border-radius: 8px;
     background-color: #3e3e3e;
     border: none;
-   height: 6vh;
+   
+   height: 8vh;
+}
+button:hover{
+    cursor: pointer;
+}
+#list1{
+    color: azure;
+}
+#results{
+    background-color: #3e3e3e;
+    width: 80%;
+    margin-left: 10%;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#green{
+    background-color: #2a2a2a;
+    padding: 1.5%;
+    border-radius: 30px;
 }
