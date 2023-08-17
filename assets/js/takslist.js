@@ -171,12 +171,12 @@ class TaskList {
 const veryBigList = new TaskList();
 
 function createTask() {
-    const taskTitle = document.getElementById("result").value;
+    const taskTitle = document.getElementById("InputAdd").value;
 
     const task = new Task(generateId(), taskTitle, false);
 
     veryBigList.addTask(task);
-    document.getElementById("InputAdd").value = '';
+    document.getElementById("results").value = '';
     console.log(veryBigList);
     renderTasks();
 }

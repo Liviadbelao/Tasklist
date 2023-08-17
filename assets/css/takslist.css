@@ -82,3 +82,8 @@ margin-left: 35%;
     margin-left: 85%;
     border: none;
 }
+.taskDone {
+    font-weight: bold;
+    background-color: green;
+    border-radius: 9898989898px;
+}
